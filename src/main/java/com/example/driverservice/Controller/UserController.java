@@ -22,6 +22,6 @@ public class UserController {
     @GetMapping("/{id}")
     public ResponseTemplateVO getDriverWithCustomer(@PathVariable("id")
                                                             Long driverId){
-        return driverService.getDriverWithCustomer(driverId);
+        return driverService.getDriverWithCustomer(driverId); 
     }
 }
